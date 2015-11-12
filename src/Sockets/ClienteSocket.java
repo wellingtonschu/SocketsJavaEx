@@ -55,6 +55,8 @@ public class ClienteSocket
 			cliente.close();
 		}
 		
+		// Encerra o scanner do teclado
+		in.close();		
 	}
 
 }
